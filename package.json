@@ -1,0 +1,27 @@
+{
+  "name": "testcordovapackage",
+  "version": "0.1.0",
+  "cordova": {
+    "id": "cordova-plugin-PxlBeamOnBoard",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galateyta/cordova-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Galateyta/cordova-plugin/issues"
+  },
+  "homepage": "https://github.com/Galateyta/cordova-plugin#readme",
+  "description": ""
+}
