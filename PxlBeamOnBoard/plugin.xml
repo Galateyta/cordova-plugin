@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-PxlBeamOnBoard" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>PxlBeamOnBoard</name><js-module name="PxlBeamOnBoard" src="www/PxlBeamOnBoard.js"><clobbers target="cordova.plugins.PxlBeamOnBoard" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="PxlBeamOnBoard"><param name="ios-package" value="PxlBeamOnBoard" /></feature></config-file><source-file src="src/ios/PxlBeamOnBoard.m" /></platform><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="PxlBeamOnBoard"><param name="android-package" value="cordova-plugin-PxlBeamOnBoard.PxlBeamOnBoard" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/PxlBeamOnBoard.java" target-dir="src/cordova-plugin-PxlBeamOnBoard/PxlBeamOnBoard" /></platform></plugin>
+<platform name="android">
+    <framework custom="true" src="src/android/PxlBeamOnBoard-sdk.gradle" type="gradleReference" />
+</platform>
+<platform name="ios">
+    <framework src="HTTransmitter" type="podspec" spec="~> 0.12.6" />
+    <framework src="libsqlite3.dylib" />
+</platform>
